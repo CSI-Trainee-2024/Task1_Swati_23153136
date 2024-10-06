@@ -21,20 +21,73 @@
 .button{
     width: 250px;
     text-align:center;
+    color:aliceblue;
     padding-top: 50x;
-    font-size: 20px;
+    font-size: 30px;
     padding-right: 20px;
     padding-left: 20px;
     margin-left: 0;
+    margin-right: 20px;
     padding-top:20px;
     padding-bottom:20px;
     border-radius:10px;
-    background-color: green;
+    background-color: rgb(69, 19, 103);
     cursor:pointer;
+    box-shadow:10px 10px 10px black;
 
 }
 .inlineblock{
     display:inline-block;
     width:300px
+
+}
+#slider{
+    overflow: hidden;
+    width: 600px;
+    margin-top: 150px;
+    margin-left: 500px;
+}
+#slider figure {
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left 0;
+    animation: 20s slider infinite;
+}
+#slider figure img {
+    float: left;
+    width: 20%;
+
+}
+@keyframes slider {
+    0% {
+        left:0%;
+    }
+    20% {
+        left: 0%;
+
+    }
+    25% {
+        left: -100%;
+
+    }
+    45% {
+        left:-100%;
+    }
+    50% {
+        left:-200%;
+    }
+    70% {
+        left: -200;
+    }
+    75% {
+        left: -300%;
+    }
+    95% {
+        left: -300%;
+    }
+    100% {
+        left: -400%;
+    }
 
 }
