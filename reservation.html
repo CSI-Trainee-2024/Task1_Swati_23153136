@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="css/text" href="style2.css">
+</head>
+<body>
+    <div>
+        <h1>Reserve Table</h1>
+        <p>Please fill the following form below accurately to enable us to serve you better!</p> 
+    </div>
+    <form>
+        <p>Name</p>
+        <label for="Name" class="inlineblock"></label>
+        <input type="text" class="Textbox" placeholder="First Name" required id="Name" size="50">
+        <label for="LName" class="inlineblock"></label>
+        <input type="text" class="Textbox" placeholder="Last Name" required id="LName" size="50">
+    <br>
+        <p>Email</p>
+        <label for="Email"></label>
+        <input type="email" class="Textbox" placeholder="ex:myname@example.com" size="100px" id="Email">
+    <br>
+        <p>Phone Number</p>
+        <label for="Ph"></label>
+        <input type="text" class="Textbox" placeholder="+91" size="10px" id="Ph">
+    <br>
+        <p>#No of Guests</p>
+        <label for="guest"></label>
+        <input type="number" class="Textbox" min="1" max="200" id="guest" >
+    <br>
+        <p>Date of Reservation</p>
+        <label for="dates"></label>
+        <input type="datetime-local" class="time" min="2024-07-10" max="2025-12-31" id="dates">
+    <br>
+        <p>Type of reservation</p>
+        <label for="Type"></label>
+        <select name="Type" id="events" width="100px">
+            <option value="Dinner">Dinner</option>
+            <option value="Birthday">Birthday</option>
+            <option value="Wedding">Wedding</option>
+            <option value="Aniversary">Aniversary</option>
+        </select>
+    <br>
+    <br>
+        <label for="sub"></label>
+        <input type="submit" name="Submit-form" value="Submit-form">
+    </form>   
+</body>
+</html>
