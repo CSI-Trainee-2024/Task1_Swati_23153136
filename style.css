@@ -20,8 +20,17 @@
 }
 .button{
     width: 250px;
+    text-align:center;
     padding-top: 50x;
+    font-size: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
     margin-left: 0;
+    padding-top:20px;
+    padding-bottom:20px;
+    border-radius:10px;
+    background-color: green;
+    cursor:pointer;
 
 }
 .inlineblock{
