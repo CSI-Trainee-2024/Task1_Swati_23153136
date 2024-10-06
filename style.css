@@ -5,13 +5,26 @@
     font-size: 100px;
     font-weight: 50px;
     height: 150px;
+    margin-top: 0px;
+    margin-bottom: 20px;
 }
-.heading{
-    text-align: center;
+.al{
+    margin-bottom:30px;
 }
+
 .obj{
-    object-fit: contain;
+    background-size: cover;
+    background-position:center centre;
     background-repeat:no-repeat;
-    background-attachment:fixed ;
-    background-size: 100% 100%;
+    background-attachment:fixed ; 
+}
+.button{
+    width: 250px;
+    padding-top: 50x;
+    margin-left: 0;
+
+}
+.inlineblock{
+    display:inline-block;
+
 }
