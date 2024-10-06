@@ -2,4 +2,10 @@
     text-align: center;
     color:White;
     background-color: red;
+    font-size: 100px;
+    font-weight: 50px;
+    height: 150px;
+}
+.heading{
+    text-align: center;
 }
