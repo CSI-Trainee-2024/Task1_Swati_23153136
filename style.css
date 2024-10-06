@@ -33,8 +33,16 @@
     border-radius:10px;
     background-color: rgb(69, 19, 103);
     cursor:pointer;
-    box-shadow:10px 10px 10px black;
+    transition: opacity 1s, background-color 1s,box-shadow 1s;
 
+}
+.button:hover{
+    background-color: blueviolet;
+    opacity: 0.8;
+    box-shadow:10px 10px 10px black;
+}
+.button:active{
+    background-color: blue;
 }
 .inlineblock{
     display:inline-block;
@@ -43,7 +51,7 @@
 }
 #slider{
     overflow: hidden;
-    width: 600px;
+    width: 700px;
     margin-top: 150px;
     margin-left: 500px;
 }
@@ -51,7 +59,7 @@
     position: relative;
     width: 500%;
     margin: 0;
-    left 0;
+    left: 0;
     animation: 20s slider infinite;
 }
 #slider figure img {
