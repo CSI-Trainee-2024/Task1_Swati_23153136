@@ -26,3 +26,17 @@
     margin-left: 45px;
     vertical-align: top;
 }
+.obj{
+    background-size: cover;
+    background-position:center centre;
+    background-repeat:no-repeat;
+    background-attachment:fixed ; 
+}
+.g{
+    color:rgb(42, 165, 61);
+    font-size: 60px;
+}
+.f{
+    font-style:oblique;
+    font-size: 50px;
+}
