@@ -6,6 +6,10 @@
     height: 150px;
     margin-top: 0px;
     margin-bottom: 20px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .al{
     margin-bottom:30px;

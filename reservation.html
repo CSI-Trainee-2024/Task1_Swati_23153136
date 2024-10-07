@@ -7,8 +7,8 @@
     <link rel="stylesheet" type="css/text" href="style2.css">
 </head>
 <body>
-    <div>
-        <h1>Reserve Table</h1>
+    <div class="inlineblock">
+        <h1 class="g">Reserve Table</h1>
         <p>Please fill the following form below accurately to enable us to serve you better!</p> 
     </div>
     <form>
@@ -24,7 +24,7 @@
     <br>
         <p>Phone Number</p>
         <label for="Ph"></label>
-        <input type="text" class="Textbox" placeholder="+91" size="10px" id="Ph">
+        <input type="text" class="Textbox" placeholder="+91" required size="10px" id="Ph">
     <br>
         <p>#No of Guests</p>
         <label for="guest"></label>
@@ -36,16 +36,17 @@
     <br>
         <p>Type of reservation</p>
         <label for="Type"></label>
-        <select name="Type" id="events" >
+        <select name="Type" id="events" aria-placeholder="Select one">
             <option value="Dinner">Dinner</option>
             <option value="Birthday">Birthday</option>
             <option value="Wedding">Wedding</option>
             <option value="Aniversary">Aniversary</option>
+            <option value="Other">Other</option>
         </select>
     <br>
     <br>
         <label for="sub"></label>
-        <input type="submit" name="Submit-form" value="Submit-form">
+        <input type="submit" name="Submit-form" value="Submit">
     </form>   
 </body>
 </html>
