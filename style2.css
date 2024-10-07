@@ -12,4 +12,17 @@
     display:flex;
     justify-content: center;
 }
-
+.align{
+    display: flex;
+    justify-content: center;
+    border:none;
+}
+.mar{
+    margin-right: 30px;
+}
+.inline{
+    display: inline-block;
+    width: 200px;
+    margin-left: 45px;
+    vertical-align: top;
+}
