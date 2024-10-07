@@ -1,0 +1,22 @@
+.head{
+    text-align: center;
+    color:rgb(90, 42, 9);
+    font-size: 100px;
+    font-weight: 50px;
+    height: 150px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.obj{
+    background-size: cover;
+    background-position:center centre;
+    background-repeat:no-repeat;
+    background-attachment:fixed ; 
+}
+textarea{
+    resize: none;
+}
