@@ -14,6 +14,12 @@
 .al{
     margin-bottom:30px;
 }
+.fon{
+    margin-top: 40px;
+    font-size: 50px;
+    font-weight: 600;
+    color:rgb(231, 206, 44);
+}
 
 .obj{
     background-size: cover;

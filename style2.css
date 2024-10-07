@@ -1,11 +1,15 @@
 .inlineblock{
-    display:inline-block;
-    width:300px
-
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    border: none;
 }
 .textbox{
     margin-bottom: 50px;
 }
-.g{
-    text-align: center;
+.inlineblock2{
+    display:inline-block;
+    display:flex;
+    justify-content: center;
 }
+
